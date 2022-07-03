@@ -1,0 +1,45 @@
+table {
+    font-family: Bavista, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td, th {
+  border: 1px solid rgb(126, 122, 52);
+  text-align: center;
+  padding: 6px;
+  border-collapse: collapse;
+  border-style: groove;
+}
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body
+a:link
+    {
+        color: white;
+        background-color: wheat;
+        text-decoration: none;
+        padding: 15px;
+    }
+a:visited
+    {
+        color: whitesmoke;
+        background-color: lightslategray;
+        text-decoration: none;
+        padding: 15px;
+    }
+a:hover
+    {
+        color: cadetblue;
+        background-color: whitesmoke;
+        text-decoration: underline;
+    }  
+a:active
+    {
+        color: lightgoldenrodyellow;
+        background-color: skyblue;
+        text-decoration: underline;
+    }
